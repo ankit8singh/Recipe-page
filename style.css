@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+    font-family:serif;
+}
+h2,h3{
+    color: rgb(147, 81, 81);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+.box{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 600px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: white;
+    line-height: 1.6;
+    
+}
+img{
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+.content{
+    text-align: start;
+}
+.content .time{
+    margin-top: 20px;
+    background-color: rgb(240, 227, 211);
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+.content .time ul{
+    margin-left: 30px;
+}
+.content .crt{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.content .crt ul,.content .crt ol{
+    margin-left: 15px;
+}
+.content .crt .list ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px; /* Add padding here */
+    text-align: left;
+}
+/* Add padding between columns */
+td {
+    padding-right: 20px; /* Adjust the value as needed */
+}
+
+
+
